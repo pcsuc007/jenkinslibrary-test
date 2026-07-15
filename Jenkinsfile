@@ -49,7 +49,7 @@ pipeline {
                             script{
                                 println('应用打包')
                                 
-                                mvnHome = tool "m2"
+                                mvnHome = tool "m3"
                                 println(mvnHome)
                                 
                                 sh "${mvnHome}/bin/mvn --version"
